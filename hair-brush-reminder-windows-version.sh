@@ -135,6 +135,8 @@ then
     echo "Time is right, do attempt!"
     echo ""
     sleep 0s
+	pwd # check where we are
+	cd hair-brush-reminder-windows-version # go to the path where the file actually is smh
     bash alert.sh
 fi
 fi
